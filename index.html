@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/mainStyle.css">
+
+  </head>
+  <body>
+
+    <h1>Note: Your possible users are Benton, Dan, Jonny, Katie, Sam, Nick, and Otis.</h1>
+  
+    <form id="chat-form">
+      <fieldset>
+        <legend>Chat submission form</legend>
+  
+        <label for="who">Who: </label>
+        <input name="who" type="text" />
+  
+        <label for="says">Comment: </label>
+        <input name="says" type="text" size="50" />
+  
+        <button id="comment-button" type="submit">Create new comment!</button>
+      </fieldset>
+    </form>
+  
+    <button id="clear-chat-list">Clear all comments!</button>
+  
+    <ul id="chat-list" class="featureBlock" ></ul>
+  
+    
+    <script src="js/app.js" async defer></script>
+  </body>
+</html>

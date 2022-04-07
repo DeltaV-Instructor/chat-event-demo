@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(228, 200, 228);
+}
+.featureBlock:nth-of-type(even) img {
+  float: left;
+}
+
+.featureBlock:nth-of-type(odd) img {
+  float: right;
+}
